@@ -1,0 +1,71 @@
+body {
+	background-color: white;
+	text-align: center;
+	background-image: url('https://store-images.s-microsoft.com/image/apps.608.13510798887677013.5c7792f0-b887-4250-8c4e-4617af9c4509.bcd1385a-ad15-450c-9ddd-3ee80c37121a?mode=scale&q=90&h=1080&w=1920');
+	background-position: relative;
+  	color: white;
+	text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.title{
+	size: 100px;
+	padding-top: 50px;
+
+}
+
+.buttons{
+	position: relative;
+	display: block;
+	width: 50%;
+	border: none;
+	background-color: #ddd;
+	padding: 15px 32px;
+	font-size: 16px;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	border-radius: 20px;
+	transition: .4s;
+	box-shadow: 0 7px #999;
+	opacity: .9;
+	outline: none;
+}
+
+.resetBtn{
+	position: relative;
+	display: block;
+	width: 30%;
+	border: none;
+	background-color: #ddd;
+	padding: 15px 32px;
+	font-size: 14px;
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	border-radius: 15px;
+	transition: .4s;
+	box-shadow: 0 7px #999;
+	opacity: .9;
+	outline: none;
+}
+
+.buttons:hover {
+	background-color: #4CAF50;
+	opacity: .8;
+}
+
+.buttons:active {
+	background-color: #ddd;
+	box-shadow: 0 3px #666;
+	transform: translateY(4px);
+	outline: none;
+	border: none;
+}
+
+.statusText{
+	font-size: 50px;
+	position: relative;
+	font: comic-sans;
+	padding-bottom: 70px;
+	padding-top: -170px;
+}
